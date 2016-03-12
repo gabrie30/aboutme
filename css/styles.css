@@ -127,6 +127,7 @@ header {
   width: 100%;
   background: #353439;
   text-align: center;
+  padding-top: 30px;
 }
 
 .projects-heading {
@@ -135,7 +136,7 @@ header {
   text-align: center;
   font-family: 'Raleway', sans-serif;
   color: white;
-  padding: 15px 0 50px 0;
+  padding: 0 0 30px 0;
 }
 
 .project-title {
