@@ -1,0 +1,394 @@
+header {
+  background-image: url(../pictures/ggb.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+.main-header {
+  position: relative;
+  z-index: 100;
+  margin-bottom: 0px;
+  padding: 15px 20px 15px 20px;
+}
+
+.header-icon a {
+  position: absolute;
+  float: left;
+  margin-left: 15px;
+  font-family: 'Pacifico', cursive;
+  color: white;
+  text-decoration: none;
+}
+
+.header-nav {
+  float: right;
+}
+
+.header-nav ul {
+  margin: auto;
+}
+
+.header-nav li {
+  list-style: none;
+  float: left;
+  border: 1px solid white;
+  margin: 1px 20px 0 0;
+}
+
+.header-nav a {
+  display: block;
+  padding: 10px 15px 10px 15px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+}
+
+.header-nav a:hover {
+  text-decoration: none;
+}
+
+.intro {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.buttons {
+  top: 55%;
+  position: relative;
+  width: 100%;
+}
+
+.intro-box {
+  position: absolute;
+  display: block;
+
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgba(0, 0, 0, 0.70);
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+
+.intro-box-contents {
+  position: absolute;
+  padding: 10px;
+  width: 100%;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Raleway', sans-serif;
+}
+
+.intro-box-contents .name {
+  font-size: 50px;
+}
+
+.intro-box-contents .title {
+  font-size: 30px;
+}
+
+.intro-box-contents .skills {
+  font-size: 20px;
+}
+
+.about-heading {
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 50px;
+}
+
+.about-section {
+  height: auto;
+  color: black;
+  background: #bdc3c7;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  padding: 30px 15% 60px 15%;
+}
+
+.projects-section {
+  min-height: 600px;
+  width: 100%;
+  background: #353439;
+  text-align: center;
+}
+
+.projects-heading {
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  padding: 15px 0 50px 0;
+}
+
+.project-title {
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  padding: 15px;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+}
+
+.profile-links {
+  position: relative;
+}
+
+.github-link {
+  display: inline;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+}
+
+.live-link {
+  display: inline;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+}
+
+.project-links {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+.themuse-magic {
+  position: relative;
+}
+
+.museseek-links {
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+
+div.themuse-magic:hover img{
+  opacity:0.4;
+}
+
+div.themuse-magic:hover a {
+  display: inline-block;
+}
+
+div.themuse-magic a {
+  position:absolute;
+  display:none;
+}
+
+div.themuse-magic:hover .github-link a{
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+}
+
+div.themuse-magic:hover .live-link a {
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+}
+
+/*    jsa     */
+
+.jsa-magic {
+  position: relative;
+}
+
+.jsa-links {
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+
+div.jsa-magic:hover img{
+    opacity:0.4;
+}
+
+div.jsa-magic:hover a {
+  display: inline-block;
+}
+
+div.jsa-magic a {
+    position:absolute;
+    display:none;
+}
+
+div.jsa-magic:hover .github-link a{
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+}
+
+div.jsa-magic:hover .live-link a {
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+}
+
+/*   chess   */
+
+.chess-magic {
+  position: relative;
+}
+
+.chess-links {
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+
+div.chess-magic:hover img{
+    opacity:0.4;
+}
+
+div.chess-magic:hover a {
+  display: inline-block;
+}
+
+div.chess-magic a {
+    position:absolute;
+    display:none;
+}
+
+div.chess-magic:hover .github-link a{
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+}
+
+div.chess-magic:hover .live-link a {
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+}
+
+.open-source {
+  position: absolute;
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background: #1D1D1D;
+}
+
+.contact-heading {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  padding: 10px 0 0 0;
+}
+
+.contact-info {
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  padding: 10px 0 0 0;
+}
+
+.icon-wrapper {
+  display: block;
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
+}
+
+.icon {
+  display: inline-block;
+  margin: 5px;
+}
+
+.last-remarks {
+  display: block;
+  margin-top: 75px;
+  padding: 10px 15px 10px 15px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  border: 2px solid white;
+  font-size: 20px;
+}
+
+.group:after { 
+  content: ""; 
+  display: block; 
+  clear: both; 
+}
+
+/* About Section */
+
+@media screen and (max-width: 720px) {
+        .about-heading {
+    font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+        .about-section {
+    font-size: 18px;
+    }
+}
+
+
+/*  Projects Section  */
+
+@media screen and (max-width: 720px) {
+        .projects-heading {
+    font-size: 35px;
+    }
+}
+
+/* Project titles*/
+@media screen and (max-width: 1000px) {
+        .project-title {
+    font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+        .project-title {
+    font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+        .project-title {
+    font-size: 10px;
+    }
+}
+
+/* Contact */
+
+@media screen and (max-width: 720px) {
+        .contact-heading {
+    font-size: 35px;
+    }
+}
+
+
