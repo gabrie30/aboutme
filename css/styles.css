@@ -318,6 +318,16 @@ div.chess-magic:hover .live-link a {
   font-family: 'Raleway', sans-serif;
   color: white;
   padding: 10px 0 0 0;
+  text-decoration: none;
+}
+
+.email-link {
+  color: white;
+}
+
+.email-link:hover {
+  text-decoration: none;
+  color: white;
 }
 
 .icon-wrapper {
