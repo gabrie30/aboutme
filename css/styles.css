@@ -342,6 +342,36 @@ div.chess-magic:hover .live-link a {
   margin: 5px;
 }
 
+/*.project-description {
+  padding: 20px 15% 20px 15%;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}*/
+
+.jsa-project-description {
+  padding: 20px 15% 30px 15%;
+  display: none;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+.museseek-project-description {
+  padding: 20px 15% 30px 15%;
+  display: none;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+.chess-project-description {
+  padding: 20px 15% 30px 15%;
+  color: white;
+  display: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
 .last-remarks {
   display: block;
   margin-top: 75px;
