@@ -439,4 +439,10 @@ div.chess-magic:hover .live-link a {
     }
 }
 
+@media screen and (max-width: 525px) {
+    ul.header-nav {
+      display: none;
+    }
+}
+
 
