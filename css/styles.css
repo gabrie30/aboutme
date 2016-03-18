@@ -21,6 +21,10 @@ header {
   text-shadow: 0px 0px 22px black;
 }
 
+.header-nav-hidden {
+  display: none;
+}
+
 .header-nav {
   float: right;
 }
@@ -443,6 +447,27 @@ div.chess-magic:hover .live-link a {
 @media screen and (max-width: 525px) {
     ul.header-nav {
       display: none;
+    }
+
+    .header-nav-hidden {
+      display: block;
+      list-style: none;
+      float: right;
+      border: 1px solid white;
+      padding: 0;
+      
+
+    }
+
+    .header-blog a {
+      position: relative;
+      display: block;
+      padding: 10px 15px 10px 15px;
+      color: white;
+      font-family: 'Raleway', sans-serif;
+      text-decoration: none;
+      text-align: center;
+      margin: auto;
     }
 }
 
