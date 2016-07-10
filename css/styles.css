@@ -394,6 +394,65 @@ div.chess-magic:hover .live-link a {
   clear: both; 
 }
 
+/* Experience Section */
+
+.experience-section {
+  background-image: url("../pictures/gong.jpg");
+  background-size: cover;
+  min-height: 950px;
+  color: black;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  padding: 0 1% 1% 0;
+}
+
+.experience-heading {
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.experience-text {
+  text-align: left;
+  padding-top: 10%;
+  margin: 0 50% 10px 0;
+  font-weight: bold;
+}
+
+.experience-title {
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.experience-description {
+  margin: 8% 10% 8% 10%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+.experience-bullet {
+  padding: 10px 10px 10px 10px;
+  font-size: 1em;
+}
+
+li {
+  list-style-type: none;
+}
+
+@media screen and (max-width: 875px) {
+        .experience-text {
+    margin: auto;
+    }
+}
+
+
 /* About Section */
 
 @media screen and (max-width: 720px) {
