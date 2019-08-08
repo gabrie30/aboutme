@@ -388,16 +388,15 @@ div.chess-magic:hover .live-link a {
   font-size: 20px;
 }
 
-.group:after { 
-  content: ""; 
-  display: block; 
-  clear: both; 
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 /* Experience Section */
 
 .experience-section {
-  background-image: url("../pictures/gong.jpg");
   background-size: cover;
   min-height: 950px;
   color: black;
@@ -514,7 +513,7 @@ li {
       float: right;
       border: 1px solid white;
       padding: 0;
-      
+
 
     }
 
