@@ -396,6 +396,18 @@ div.chess-magic:hover .live-link a {
 
 /* Experience Section */
 
+#omnimg {
+  background-size: 100%;
+  object-fit: contain;
+  background-repeat: no-repeat;
+}
+
+.omn-experience-section {
+  background: #000;
+  width: 100vw;
+  height: 70vw;
+}
+
 .experience-section {
   background-size: cover;
   min-height: 950px;
